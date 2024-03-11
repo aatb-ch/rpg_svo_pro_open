@@ -1,3 +1,9 @@
+This fork adds few things to SVO Pro:
+
+- cmake edited to compile on M2 in VM
+- use ApproximateTime instead of ExactTime policy to work with Oak-D ros publisher, as it does not publish stereo raw frames with exact matching timestamps
+- modify the visualizer to publish the odom->base_link transform
+
 # rpg_svo_pro
 
 This repo includes **SVO Pro** which is the newest version of Semi-direct Visual Odometry (SVO) developed over the past few years at the Robotics and Perception Group (RPG).
